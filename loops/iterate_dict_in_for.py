@@ -1,0 +1,7 @@
+# Iterating over dictionary
+print("Dictionary Iteration")  
+d = dict()
+d['xyz'] = 123
+d['abc'] = 345
+for i in d :
+    print("%s  %d" %(i, d[i]))          # %s is used for printing string charecters and %d is used for printing numbers
